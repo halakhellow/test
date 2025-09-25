@@ -1,0 +1,281 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 BEGIN:VCALENDAR\
+VERSION:2.0\
+PRODID:-//Settlement Alumni Calendar//EN\
+CALSCALE:GREGORIAN\
+METHOD:PUBLISH\
+X-WR-CALNAME:Settlement Alumni Calendar\
+X-WR-TIMEZONE:America/Toronto\
+X-WR-CALDESC:Calendar for Settlement Alumni including Canadian holidays, cultural observances, and practical reminders\
+\
+BEGIN:VTIMEZONE\
+TZID:America/Toronto\
+BEGIN:DAYLIGHT\
+DTSTART:20070311T020000\
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU\
+TZNAME:EDT\
+TZOFFSETFROM:-0500\
+TZOFFSETTO:-0400\
+END:DAYLIGHT\
+BEGIN:STANDARD\
+DTSTART:20071104T020000\
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU\
+TZNAME:EST\
+TZOFFSETFROM:-0400\
+TZOFFSETTO:-0500\
+END:STANDARD\
+END:VTIMEZONE\
+\
+REM Canadian Statutory Holidays (recurring)\
+BEGIN:VEVENT\
+UID:new-years-day@settlement-alumni\
+DTSTART;VALUE=DATE:20260101\
+SUMMARY:New Year's Day\
+DESCRIPTION:Canadian statutory holiday\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:family-day-ontario@settlement-alumni\
+DTSTART;VALUE=DATE:20260216\
+SUMMARY:Family Day (Ontario)\
+DESCRIPTION:Third Monday in February - Ontario statutory holiday\
+RRULE:FREQ=YEARLY;BYMONTH=2;BYDAY=3MO\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:canada-day@settlement-alumni\
+DTSTART;VALUE=DATE:20260701\
+SUMMARY:Canada Day\
+DESCRIPTION:Canadian national holiday\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:civic-holiday-ontario@settlement-alumni\
+DTSTART;VALUE=DATE:20260803\
+SUMMARY:Civic Holiday (Ontario)\
+DESCRIPTION:First Monday in August - Ontario statutory holiday\
+RRULE:FREQ=YEARLY;BYMONTH=8;BYDAY=1MO\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:labour-day-canada@settlement-alumni\
+DTSTART;VALUE=DATE:20260907\
+SUMMARY:Labour Day\
+DESCRIPTION:First Monday in September - Canadian statutory holiday\
+RRULE:FREQ=YEARLY;BYMONTH=9;BYDAY=1MO\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:thanksgiving-canada@settlement-alumni\
+DTSTART;VALUE=DATE:20261012\
+SUMMARY:Thanksgiving Day (Canada)\
+DESCRIPTION:Second Monday in October - Canadian statutory holiday\
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=2MO\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:christmas-day@settlement-alumni\
+DTSTART;VALUE=DATE:20261225\
+SUMMARY:Christmas Day\
+DESCRIPTION:Canadian statutory holiday\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:boxing-day@settlement-alumni\
+DTSTART;VALUE=DATE:20261226\
+SUMMARY:Boxing Day\
+DESCRIPTION:Canadian statutory holiday\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:victoria-day@settlement-alumni\
+DTSTART;VALUE=DATE:20260518\
+SUMMARY:Victoria Day\
+DESCRIPTION:Monday preceding May 25th - Canadian statutory holiday\
+RRULE:FREQ=YEARLY;BYMONTH=5;BYDAY=-1MO;BYSETPOS=-1\
+END:VEVENT\
+\
+REM Easter-based holidays (dates vary each year)\
+BEGIN:VEVENT\
+UID:good-friday-2026@settlement-alumni\
+DTSTART;VALUE=DATE:20260403\
+SUMMARY:Good Friday\
+DESCRIPTION:Canadian statutory holiday - dates vary each year based on Easter calculation\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:easter-monday-2026@settlement-alumni\
+DTSTART;VALUE=DATE:20260406\
+SUMMARY:Easter Monday\
+DESCRIPTION:Canadian statutory holiday - dates vary each year based on Easter calculation\
+END:VEVENT\
+\
+REM Cultural & Religious Observances (2026 dates - verify yearly)\
+BEGIN:VEVENT\
+UID:lunar-new-year-2026@settlement-alumni\
+DTSTART;VALUE=DATE:20260217\
+SUMMARY:Lunar New Year\
+DESCRIPTION:Year of the Horse - dates shift based on lunar calendar\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:eid-al-fitr-2026@settlement-alumni\
+DTSTART;VALUE=DATE:20260217\
+SUMMARY:Eid al-Fitr (estimated)\
+DESCRIPTION:End of Ramadan - dates vary based on lunar sighting, confirm yearly\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:nowruz-2026@settlement-alumni\
+DTSTART;VALUE=DATE:20260320\
+SUMMARY:Nowruz (Persian New Year)\
+DESCRIPTION:Spring equinox celebration\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:eid-al-adha-2026@settlement-alumni\
+DTSTART;VALUE=DATE:20260427\
+SUMMARY:Eid al-Adha (estimated)\
+DESCRIPTION:Festival of Sacrifice - dates vary based on lunar calendar, confirm yearly\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:diwali-2026@settlement-alumni\
+DTSTART;VALUE=DATE:20261108\
+SUMMARY:Diwali\
+DESCRIPTION:Festival of Lights - dates vary based on lunar calendar\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:hanukkah-2026@settlement-alumni\
+DTSTART;VALUE=DATE:20261204\
+DTEND;VALUE=DATE:20261213\
+SUMMARY:Hanukkah\
+DESCRIPTION:Jewish Festival of Lights - 8 days, dates vary based on Hebrew calendar\
+END:VEVENT\
+\
+REM Awareness & Advocacy Days (fixed dates)\
+BEGIN:VEVENT\
+UID:family-literacy-day@settlement-alumni\
+DTSTART;VALUE=DATE:20260219\
+SUMMARY:Family Literacy Day\
+DESCRIPTION:Awareness day promoting literacy in families\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:international-womens-day@settlement-alumni\
+DTSTART;VALUE=DATE:20260308\
+SUMMARY:International Women's Day\
+DESCRIPTION:Global day celebrating women's social, economic, cultural and political achievements\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:racial-discrimination-day@settlement-alumni\
+DTSTART;VALUE=DATE:20260321\
+SUMMARY:International Day for Elimination of Racial Discrimination\
+DESCRIPTION:UN observance day promoting racial equality\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:earth-day@settlement-alumni\
+DTSTART;VALUE=DATE:20260422\
+SUMMARY:Earth Day\
+DESCRIPTION:Environmental awareness day\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:world-refugee-day@settlement-alumni\
+DTSTART;VALUE=DATE:20260620\
+SUMMARY:World Refugee Day\
+DESCRIPTION:UN day honoring refugees and raising awareness of their plight\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:truth-reconciliation-day@settlement-alumni\
+DTSTART;VALUE=DATE:20260930\
+SUMMARY:National Day for Truth and Reconciliation\
+DESCRIPTION:Canadian federal statutory holiday honoring Indigenous peoples\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:world-mental-health-day@settlement-alumni\
+DTSTART;VALUE=DATE:20261010\
+SUMMARY:World Mental Health Day\
+DESCRIPTION:WHO observance raising awareness of mental health issues\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:international-migrants-day@settlement-alumni\
+DTSTART;VALUE=DATE:20261218\
+SUMMARY:International Migrants Day\
+DESCRIPTION:UN day recognizing the contributions and rights of migrants\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+REM Practical Reminders\
+BEGIN:VEVENT\
+UID:tax-slips-reminder@settlement-alumni\
+DTSTART;VALUE=DATE:20260215\
+SUMMARY:Tax Slips (T4s) Available\
+DESCRIPTION:Annual reminder that tax documents are typically distributed mid-February\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:tax-filing-deadline@settlement-alumni\
+DTSTART;VALUE=DATE:20260430\
+SUMMARY:Income Tax Filing Deadline\
+DESCRIPTION:Canada Revenue Agency deadline for individual tax returns\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:daylight-saving-spring@settlement-alumni\
+DTSTART;VALUE=DATE:20260308\
+SUMMARY:Daylight Saving Time Begins\
+DESCRIPTION:Clocks spring forward 1 hour - Second Sunday in March\
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:daylight-saving-fall@settlement-alumni\
+DTSTART;VALUE=DATE:20261101\
+SUMMARY:Daylight Saving Time Ends\
+DESCRIPTION:Clocks fall back 1 hour - First Sunday in November\
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:back-to-school-reminder@settlement-alumni\
+DTSTART;VALUE=DATE:20260908\
+SUMMARY:Back-to-School Reminder\
+DESCRIPTION:School year typically begins - First Tuesday after Labour Day\
+RRULE:FREQ=YEARLY;BYMONTH=9;BYDAY=1TU\
+END:VEVENT\
+\
+BEGIN:VEVENT\
+UID:winter-safety-reminder@settlement-alumni\
+DTSTART;VALUE=DATE:20261201\
+SUMMARY:Winter Safety & Holiday Closures Reminder\
+DESCRIPTION:Reminder about winter preparedness and upcoming holiday service changes\
+RRULE:FREQ=YEARLY\
+END:VEVENT\
+\
+END:VCALENDAR}
